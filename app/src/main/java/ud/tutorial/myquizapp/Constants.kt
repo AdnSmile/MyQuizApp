@@ -2,6 +2,10 @@ package ud.tutorial.myquizapp
 
 object Constants {
 
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTION : String = "total_question"
+    const val CORECT_ANSWER : String = "corect_answer"
+
     fun getQuestion(): ArrayList<Questions> {
         val questionsList = ArrayList<Questions>()
 
